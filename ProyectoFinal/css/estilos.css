@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Quicksand:wght@300;500&display=swap');
+
+:root{
+    --fuente:'Quicksand', sans-serif;
+    --fuentetitulo:'Bebas Neue', cursive;
+}
+
+.enlaces{
+    color: white;
+    text-decoration: none;
+}
+
+header{
+    background-color: rgb(0, 0, 255);
+    width: 30vp;
+}
+
+.header_logo{
+    width: 200px;
+}
+
+.header_lista{
+    padding: 20px 20px 20px 20px;
+    list-style: none;
+    display:inline-flex;
+
+}
+.header_lista li{
+    display: inline-block;
+    width: 100px;
+}
+.header_lista a{
+    color: white;
+    text-decoration: none;
+}
+
+.header_lista_act{
+    font-weight: bold;
+}
+.main_titulo{
+    text-align: center;
+    font-family: var(--fuentetitulo);
+
+}
+.main_titulos{
+    text-align: center;
+    font-family: var(--fuentetitulo);
+}
+.main_foto{
+    width: 800px;
+
+}
+.main_texto{
+    font-style: italic;
+    text-align: justify;
+}
+.historia_texto{
+    font-family: var(--fuente);
+}
+.noticia1_foto{
+    width: 500px;
+}
+.noticia1_titulo{
+    font-family: var(--fuentetitulo);
+}
+.noticias_cuerpo{
+    border: 1px black solid;
+}
+.noticia1_subtitulo{
+    text-decoration: underline;
+    font-family: var(--fuentetitulo);
+    font-weight: lighter;
+}
+.noticia1_cuerpoFoto{
+    width: 500px;
+}
+
+.noticia1_texto{
+    font-family: var(--fuente);
+}
+
+footer{
+    background-color:#183059 ;
+}
+.footer_redes{
+    color: white;
+    font-family: var(--fuentetitulo)
+}
+.main_titulos{
+    font-family: var(--fuentetitulo);
+}
+
+.historia_foto{
+    width: 800px;
+}
+
+.noticia2_subtitulo{
+    font-family: var(--fuentetitulo);
+    font-weight: lighter;
+}
+.noticia2_foto{
+    width: 500px;
+}
+.noticia2_texto{
+    font-family: var(--fuente);
+}
+
+.articulo1_imagen{
+    width: 500px;
+}
+.articulo1_subtitulo{
+    font-family: var(--fuentetitulo);
+    font-weight: lighter;
+}
+.articulo1_subtitulo2{
+    font-family: var(--fuente);
+    text-decoration: underline;
+}
+.articulo1_lista{
+    font-family: var(--fuente);
+    list-style:circle;
+}
+
+

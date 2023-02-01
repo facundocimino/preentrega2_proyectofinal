@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HACETE SOCIO</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+
+<body>
+    <header>
+        <a href="../index.html">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/41/Colegiales_arg_logo.png" alt="" class="header_logo">
+         </a>
+         <nav>
+            <ul class="header_lista">
+            <li>
+            <a href="../index.html">INICIO</a>
+            </li>
+            <li>
+                <a href="./historia.html">HISTORIA</a>
+             </li>
+            <li>
+                <a href="./noticias.html">NOTICIAS</a>
+            </li>
+            <li>
+                <a href="./tiendacole.html">TIENDA COLE</a>
+            </li>
+            <li>
+                <a href="./socio.html" class="header_lista_act">HACETE SOCIO</a>
+            </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>     
+    <form action="#" method="GET"> 
+        <!-- POST si usamos contraseñas, quye no aparezca en el URL -->
+        <input type="text" placeholder="Nombre completo" name="Nombre" class="socio_nombre">
+
+        <input type="number" placeholder="Edad" name="Edad">
+        <!-- Menu desplegable -->
+        <select name="socio">
+            <option value="Selec">Tipo de socio</option>
+            <option value="Simp">Simple ($1200)</option>
+            <option value="Plen">Pleno ($1600)</option>
+            <option value="Cadet">Cadete ($800)</option>
+        </select>
+        <input type="email" placeholder="email" name="mail">
+        <input type="number" placeholder="Telefono" name="Telefono">
+        <!-- RADIO BUTTON -->
+        <h4>Sexo:</h4>
+        <label for="">
+            <span>Masculino</span>
+            <input type="radio" value="Masculino" name="radio">
+            <span>Femenino</span>
+            <input type="radio" value="femenino" name="radio">
+            <span>Otro</span>
+            <input type="radio" value="Otro" name="radio">
+        </label>
+
+        <!-- Botones -->
+        <input type="submit" value="enviar">
+        <input type="reset">
+    </main>   
+
+    <footer>
+
+        <div class="footer_contacto">
+            <h3 class="footer_titulo">CONTACTOS:</h3>
+            <ul class="footer_redes">
+                <li>
+                    <i class="bi bi-envelope-at"></i>
+                    <a href="" target="_blank">GMAIL</a>
+                </li>
+                <li>
+                    <i class="bi bi-whatsapp"></i>
+                    <a href="tel:+54 9 11 4188-2222">WHATSAPP</a>
+                </li>
+                <li>
+                    <i class="bi bi-instagram"></i>
+                    <a href="https://www.instagram.com/cacolegiales/" target="_blank">INSTAGRAM</a>
+                </li>
+                <li>
+                    <i class="bi bi-facebook"></i>
+                    <a href="https://www.facebook.com/colegialesoficial" target="_blank">FACEBOOK</a>
+                </li>
+                <li>
+                    <i class="bi bi-twitter"></i>
+                    <a href="https://twitter.com/facundo_cimino" target="_blank">TWITTER</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer_maps">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105193.90104582623!2d-58.6269453537034!3d-34.52038817923494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb0cca1368699%3A0x2773728d00526d0e!2sEstadio%20Libertarios%20Unidos!5e0!3m2!1ses-419!2sar!4v1673224073441!5m2!1ses-419!2sar"
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="footer_autor">
+            <ul>
+                <li>Hecho por Facundo Cimino.</li>
+                <li><a href="tel:+5491168619757" class="footer_autor">+54 9 11 6861-9757</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
