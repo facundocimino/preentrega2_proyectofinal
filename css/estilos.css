@@ -46,10 +46,11 @@ header {
     gap: 30px;
     justify-content: flex-end;
     align-items: center;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     font-family: var(--fuentetitulo);
     font-weight: lighter;
     font-size: 35px;
+    transition: 5s all;
 }
 
 .header_lista a {
@@ -62,7 +63,7 @@ header {
 }
 
 .header_lista :hover {
-    font-size: 30px;
+    transform: scale(1.2);
 }
 
 
@@ -92,6 +93,7 @@ header {
     font-style: italic;
     display: flex;
     justify-content: center;
+    /* transition: infinite all; */
 }
 
 .main_texto a {
@@ -201,7 +203,7 @@ header {
     padding: 8px;
     flex-direction: column;
     align-items: center;
-    width: 40vh;
+    width: 40%;
 }
 
 .tabla {
@@ -341,8 +343,11 @@ footer {
     flex-direction: column;
     gap: 15px;
     list-style: none;
+    transition: 3s all;
 }
-
+.footer_lista :hover {
+    transform: scaleX(1.2);
+}
 .footer_lista li a {
     text-decoration: none;
     color: white;
@@ -351,15 +356,19 @@ footer {
     transition: all 300ms;
 }
 
-.footer_lista li a:hover {
+/* .footer_lista li a:hover {
     transform: scaleX(1.2);
-}
+} */
 
 .footer_contacto {
     justify-content: flex-start;
     align-items: center;
+    transition: 3s all;
 }
 
+.footer_contacto :hover{
+    color: blue;
+}
 .footer_contacto ul {
     list-style: none;
 
@@ -403,9 +412,9 @@ footer {
 
 }
 
-.footer_redes :hover {
+/* .footer_redes :hover {
     font-size: 23px;
-}
+} */
 
 .footer_autor {
     display: flex;

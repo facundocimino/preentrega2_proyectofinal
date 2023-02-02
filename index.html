@@ -22,7 +22,7 @@
         </a>
         <!-- <h3 class="main_titulo">CLUB ATLETICO COLEGIALES</h3> -->
         <nav>
-            <ul class="header_lista">
+            <ul class="header_lista wow animate__animated animate__pulse">
                 <li>
                     <a href="./index.html" class="header_lista_act">INICIO</a>
                 </li>
@@ -53,11 +53,11 @@
             Somos el Club Atletico Colegiales, el club mas grande de Zona Norte. Creados en 1908 fomentamos el
             deporte,
             conoce sobre nuestra historia.
-            <a href="./secciones/historia.html">Conoce mas</a>
+            <a href="./secciones/historia.html" class="animate__animated animate__pulse">Conoce mas</a>
         </p>
         <h3 class="noticia1_titulo">ULTIMAS NOTICIAS</h3>
         <div class="main_noticias">
-            <div class="noticia1">
+            <div class="noticia1 wow animate__animated animate__bounceIn">
                 <img src="./Imagenes/Captura de pantalla 2023-01-12 183212.png" alt="foto amistoso"
                     class="noticia1_foto">
                 <h4 class="noticia1_subtitulo">Amistoso contra libres</h4>
@@ -66,7 +66,7 @@
                     de futbolistas libres.<a href="./secciones/noticias.html">Enterate el resultado</a></p>
 
             </div>
-            <div class="noticia2">
+            <div class="noticia2 wow animate__bounceIn">
                 <img src="./Imagenes/Captura de pantalla 2023-01-12 222030.png" alt="imagen cancha"
                     class="noticia2_foto">
                 <h3 class="noticia2_subtitulo">Ultimando detalles</h3>
@@ -76,7 +76,7 @@
 
             </div>
 
-            <div class="noticias_agenda">
+            <div class="noticias_agenda wow animate__animated animate__bounceIn">
                 <div class="titulo">
                     <h3>PROXIMOS PARTIDOS</h3>
                 </div>
@@ -174,5 +174,8 @@
         </ul>
     </nav>
 </body>
-
+<script src="./js/wow.js"></script>
+<script>
+    new WOW().init();
+    </script>
 </html>
