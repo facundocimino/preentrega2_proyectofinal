@@ -293,10 +293,6 @@ header {
     margin: 15px;
 }
 
-.articulo1_imagen {
-    /* width: 500px; */
-}
-
 /* .articulo1_subtitulo {
     font-family: var(--fuentetitulo);
     font-weight: lighter;
@@ -306,11 +302,6 @@ header {
     font-family: var(--fuente);
     text-decoration: underline;
 }
-.articulo2_imagen{
-    /* width: 500px;
-    height: 500px; */
-}
-
 .articulos_lista {
     font-family: var(--fuente);
     list-style: circle;
@@ -601,10 +592,6 @@ footer {
     .header h3 {
         display: flex;
         justify-content: center;
-    }
-
-    .main_foto {
-        /* width: 300px; */
     }
 
     .main_texto{
